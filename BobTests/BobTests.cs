@@ -19,10 +19,17 @@ namespace BobTests
             Assert.AreEqual("Whatever.", Conversation.Reply(" "));
         }
         [TestMethod]
-        public void Should_Reply_Yelling()
+        public void Should_Reply_To_Yelling()
         {
 
             Assert.AreEqual("Stop yelling!", Conversation.Reply("HEY!"));
+        }
+
+        [TestMethod]
+        public void Should_Reply_To_Question_And_Yelling()
+        {
+
+            Assert.AreEqual("I don't like you.", Conversation.Reply("HEY, WHAT'S UP?"));
         }
     }
 }

@@ -12,7 +12,10 @@ namespace BobTests
         {
             if (IsSayingNothing(statement))
                 return "Whatever.";
-           
+
+            if (IsYelling(statement) && IsAskingQuestion(statement))
+                return "I don't like you.";
+          
             if (IsYelling(statement))
                 return "Stop yelling!";
 
