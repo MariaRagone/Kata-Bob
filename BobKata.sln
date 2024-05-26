@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BobKata", "BobKata\BobKata.csproj", "{B60B1ADF-902B-4ABD-8A19-DA04284EF3B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BobTests", "BobTests\BobTests.csproj", "{74004BAC-A237-4D5C-B41A-E25A7BEC9ACE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B60B1ADF-902B-4ABD-8A19-DA04284EF3B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60B1ADF-902B-4ABD-8A19-DA04284EF3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60B1ADF-902B-4ABD-8A19-DA04284EF3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60B1ADF-902B-4ABD-8A19-DA04284EF3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74004BAC-A237-4D5C-B41A-E25A7BEC9ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74004BAC-A237-4D5C-B41A-E25A7BEC9ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74004BAC-A237-4D5C-B41A-E25A7BEC9ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74004BAC-A237-4D5C-B41A-E25A7BEC9ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2657A897-E386-4DC4-BD9A-82A2A2DF8BE2}
+	EndGlobalSection
+EndGlobal
